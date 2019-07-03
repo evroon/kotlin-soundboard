@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">kotlin-soundboard</string>
+    <string name="splash_sounds">Splash sounds</string>
+    <string name="splash">splash</string>
+</resources>
