@@ -2,6 +2,8 @@
 
 A very basic soundboard for Android, written in Kotlin. 
 
+![alt text](misc/preview.jpg "Preview of the app")
+
 Adding sounds
 ----
 Add a sound to the view by doing the following:
