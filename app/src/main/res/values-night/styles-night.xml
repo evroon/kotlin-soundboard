@@ -4,11 +4,9 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#673AB7</item>
         <item name="colorPrimaryDark">#44267A</item>
-        <item name="colorAccent">#673AB7</item>
-        <item name="android:colorBackground">#fafaff</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:colorBackground">#303030</item>
         <item name="colorOnSurface">#FFFFFF</item>
         <item name="colorOnPrimary">#FFFFFF</item>
-        <item name="colorOnPrimarySurface">#FFFFFF</item>
-        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar.Surface</item>
     </style>
 </resources>

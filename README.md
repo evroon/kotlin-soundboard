@@ -1,6 +1,7 @@
 # Kotlin Soundboard
+[![tests](https://github.com/evroon/kotlin-soundboard/actions/workflows/main.yml/badge.svg)](https://github.com/evroon/kotlin-soundboard/actions/workflows/main.yml)
 
-A very basic soundboard for Android, written in Kotlin. 
+A very basic soundboard for Android, written in Kotlin.
 
 ![alt text](misc/preview.jpg "Preview of the app")
 

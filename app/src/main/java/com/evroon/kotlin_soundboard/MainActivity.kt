@@ -3,10 +3,12 @@ package com.evroon.kotlin_soundboard
 import android.annotation.SuppressLint
 import android.media.MediaPlayer
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.TextView
+import com.google.android.material.button.MaterialButton
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.appbar.*
 
 class MainActivity : AppCompatActivity() {
     private fun getString(id: String): String {
@@ -14,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun createButton(name: String): Button {
-        val button = Button(this)
+        val button = MaterialButton(this)
         button.text = getString(name)
         linear_layout!!.addView(button)
         return button
@@ -24,6 +26,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        super.setSupportActionBar(detail_toolbar)
+        supportActionBar!!.title = getString(R.string.app_name)
 
         // Add textviews or sounds in this array to display them.
         // The strings are formatted as "{type}_{name},
