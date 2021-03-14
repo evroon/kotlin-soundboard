@@ -8,7 +8,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.merg3d.kotlin_soundboard"
+        applicationId "com.evroon.kotlin_soundboard"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1

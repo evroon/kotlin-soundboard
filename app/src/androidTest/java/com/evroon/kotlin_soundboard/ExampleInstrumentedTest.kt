@@ -1,4 +1,4 @@
-package com.merg3d.kotlin_soundboard
+package com.evroon.kotlin_soundboard
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.merg3d.kotlin_soundboard", appContext.packageName)
+        assertEquals("com.evroon.kotlin_soundboard", appContext.packageName)
     }
 }

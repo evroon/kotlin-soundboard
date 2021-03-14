@@ -1,4 +1,4 @@
-package com.merg3d.kotlin_soundboard
+package com.evroon.kotlin_soundboard
 
 import org.junit.Test
 
