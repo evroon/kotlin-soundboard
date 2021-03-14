@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: docker/install_docker.sh
+        run: docker/install-docker.sh
 
       - name: Run tests
         run: make docker-test
