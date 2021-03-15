@@ -35,8 +35,42 @@ class MainActivity : AppCompatActivity() {
         // The name must reference to a string resource in res/values/strings.xml.
         // The name must also reference to an audio resource/file in res/raw/.
         val layout = arrayOf(
-            "textview_splash_sounds",
-            "button_splash"
+            "textview_ik_gooi_blikje_in_de_water",
+            "button_anderekeerzien",
+            "button_dat_doe_je_toch_niet_zo",
+            "button_eerstekeer",
+            "button_geefniks",
+            "button_hartstikkemooi",
+            "button_houdoe",
+            "button_ikhebhelemaalniks",
+            "button_isniks",
+            "button_kan_je_weer_bekeuring_krijgen",
+            "button_komt_goed",
+            "button_leegbilkindewater",
+            "button_money",
+            "button_mooieding",
+            "button_nevergiveup",
+            "button_niet_meer_doen",
+            "button_niet_normaal",
+            "button_ookboete",
+            "button_perfect",
+            "button_zoisnatuur",
+            "button_waarom_niet",
+            "button_honderd_euro",
+
+            "textview_escalatie",
+            "button_tijdomdagtezeggen",
+            "button_prachtigis",
+            "button_toeter",
+            "button_sinterklaas_bestaat_niet",
+            "button_groot_succes",
+
+            "textview_overig",
+            "button_wilgewoontoeteren",
+            "button_aandacht",
+            "button_alweer_een_winnaar",
+            "button_wrong_answer",
+            "button_doehetniet"
         )
 
         layout.forEach {
